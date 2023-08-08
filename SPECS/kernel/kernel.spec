@@ -40,6 +40,7 @@ Source2:        config_aarch64
 Source3:        sha512hmac-openssl.sh
 Source4:        cbl-mariner-ca-20211013.pem
 Patch0:         nvme_multipath_default_false.patch
+Patch1:         gen2_e820_pmem.patch
 BuildRequires:  audit-devel
 BuildRequires:  bash
 BuildRequires:  bc
